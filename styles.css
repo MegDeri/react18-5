@@ -43,6 +43,7 @@ input {
     height: 30px;
     border-radius: 3px;
     margin: 5px;
+    width: 130px;
 }
 
 .contactItem {
