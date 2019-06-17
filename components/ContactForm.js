@@ -13,7 +13,7 @@ var ContactForm = React.createClass({
           id: 'one',
         }),
         React.createElement('label', {
-          for: 'one',
+          htmlFor: 'one',
         }, ": imie"),
         React.createElement('input', {
           type: 'text',
@@ -22,7 +22,7 @@ var ContactForm = React.createClass({
           id: 'two',
         }),
         React.createElement('label', {
-          for: 'two',
+          htmlFor: 'two',
         }, ": nazwisko"),
         React.createElement('input', {
           type: 'email',
@@ -31,7 +31,7 @@ var ContactForm = React.createClass({
           id: 'three',
         }),
         React.createElement('label', {
-          for: 'three',
+          htmlFor: 'three',
         }, ": email"),
         React.createElement('button', {type: 'submit'}, "Dodaj kontakt"),
       )
